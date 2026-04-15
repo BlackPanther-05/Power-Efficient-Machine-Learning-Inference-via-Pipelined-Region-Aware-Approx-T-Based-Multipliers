@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/redhat315bd/physical_design_nipun/Physical_design
+QoS Summary for fixed_point_mul_p_1_L1
+================================================================================
+Metric                          fixed_point_mul_p_1_L1_syn_generic fixed_point_mul_p_1_L1_syn_map
+================================================================================
+Slack (ps):                      -940            -769
+  R2R (ps):                  no_value        no_value
+  I2R (ps):                  no_value        no_value
+  R2O (ps):                  no_value        no_value
+  I2O (ps):                      -940            -769
+  CG  (ps):                  no_value        no_value
+TNS (ps):                     -14,593         -12,114
+  R2R (ps):                  no_value        no_value
+  I2R (ps):                  no_value        no_value
+  R2O (ps):                  no_value        no_value
+  I2O (ps):                   -14,593         -12,114
+  CG  (ps):                  no_value        no_value
+Failing Paths:                     16              16
+Cell Area:                      5,078           4,195
+Total Cell Area:                5,078           4,195
+Leaf Instances:                 1,902           1,348
+Total Instances:                1,902           1,348
+Utilization (%):                 0.00            0.00
+Tot. Net Length (um):        no_value        no_value
+Avg. Net Length (um):        no_value        no_value
+Route Overflow H (%):        no_value        no_value
+Route Overflow V (%):        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value
+  Tot Cong:                  no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:30:20        00:30:12
+Real Runtime (h:m:s):        00:30:21        00:30:09
+CPU  Elapsed (h:m:s):        00:30:23        00:30:34
+Real Elapsed (h:m:s):        00:30:21        00:30:30
+Memory (MB):                  1652.70         1636.02
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:30:30
+Total Memory (MB):     1644.03
+Executable Version:    21.10-p002_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+
