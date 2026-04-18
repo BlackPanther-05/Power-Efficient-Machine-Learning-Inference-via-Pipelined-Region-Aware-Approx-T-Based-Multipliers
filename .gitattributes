@@ -1,3 +1,0 @@
-.vcd filter=lfs diff=lfs merge=lfs -text
-.pth filter=lfs diff=lfs merge=lfs -text
-.pack filter=lfs diff=lfs merge=lfs -text
