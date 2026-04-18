@@ -1,0 +1,13 @@
+layer,acc,latency,accuracy_drop,region_levels
+backbone.encoder.layers.0.attention.out_proj,0.7433472415391748,0.0312655946949493,-9.27213722763387e-05,
+backbone.encoder.layers.1.attention.q_proj,0.7431617987946221,0.03125132829346543,9.27213722763387e-05,
+backbone.feature_projection.projection,0.7420491423273065,0.021909920205841944,0.001205377839591959,
+backbone.encoder.layers.2.attention.k_proj,0.0,inf,0.7432545201668984,
+backbone.encoder.layers.2.feed_forward.output_dense,0.0,inf,0.7432545201668984,
+backbone.encoder.layers.3.feed_forward.intermediate_dense,0.0,inf,0.7432545201668984,
+backbone.encoder.layers.4.attention.q_proj,0.0,inf,0.7432545201668984,
+backbone.encoder.layers.5.attention.v_proj,0.0,inf,0.7432545201668984,
+backbone.encoder.layers.6.attention.k_proj,0.0,inf,0.7432545201668984,
+backbone.encoder.layers.6.feed_forward.intermediate_dense,0.0,inf,0.7432545201668984,
+backbone.encoder.layers.9.attention.v_proj,0.0,inf,0.7432545201668984,
+head.5,0.0,inf,0.7432545201668984,

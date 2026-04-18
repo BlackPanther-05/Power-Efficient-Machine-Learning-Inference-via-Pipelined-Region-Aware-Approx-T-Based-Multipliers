@@ -1,0 +1,13 @@
+layer,acc,latency,accuracy_drop,region_levels
+bert.encoder.layer.0.attention.self.query,0.8509174311926605,0.002789382066512523,0.0,"2,2,2,2"
+bert.encoder.layer.0.attention.self.value,0.8509174311926605,0.002792818807351185,0.0,"2,2,2,2"
+bert.encoder.layer.0.intermediate.dense,0.8509174311926605,0.010528371119266296,0.0,"2,2,2,2"
+bert.encoder.layer.1.attention.self.query,0.8509174311926605,0.002834916127289735,0.0,"2,2,2,2"
+bert.encoder.layer.1.attention.output.dense,0.8509174311926605,0.0028521076743145217,0.0,"2,2,2,2"
+bert.encoder.layer.1.output.dense,0.8509174311926605,0.01062769487729083,0.0,"2,2,2,2"
+bert.encoder.layer.2.attention.self.key,0.8509174311926605,0.0028483866605602754,0.0,"2,2,2,2"
+bert.encoder.layer.2.intermediate.dense,0.8509174311926605,0.010568994650234219,0.0,"2,2,2,2"
+bert.encoder.layer.3.attention.self.query,0.8509174311926605,0.002839779032101516,0.0,"2,2,2,2"
+bert.encoder.layer.3.attention.self.key,0.8509174311926605,0.002848753540142794,0.0,"2,2,2,2"
+bert.encoder.layer.4.intermediate.dense,0.8509174311926605,0.010591851024075552,0.0,"2,2,2,2"
+classifier,0.8509174311926605,0.0003159552523006531,0.0,"2,2,2,2"

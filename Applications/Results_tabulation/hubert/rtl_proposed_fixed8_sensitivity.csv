@@ -1,0 +1,13 @@
+layer,acc,latency,accuracy_drop,region_levels
+backbone.encoder.layers.0.attention.out_proj,0.7429763560500696,0.0563749388655506,0.00027816411682879405,"2,2,2,2"
+backbone.feature_projection.projection,0.7420491423273066,0.03862253270004657,0.001205377839591848,"2,2,2,2"
+backbone.encoder.layers.1.attention.q_proj,0.0,inf,0.7432545201668984,"2,2,2,2"
+backbone.encoder.layers.2.attention.k_proj,0.0,inf,0.7432545201668984,"2,2,2,2"
+backbone.encoder.layers.2.feed_forward.output_dense,0.0,inf,0.7432545201668984,"2,2,2,2"
+backbone.encoder.layers.3.feed_forward.intermediate_dense,0.0,inf,0.7432545201668984,"2,2,2,2"
+backbone.encoder.layers.4.attention.q_proj,0.0,inf,0.7432545201668984,"2,2,2,2"
+backbone.encoder.layers.5.attention.v_proj,0.0,inf,0.7432545201668984,"2,2,2,2"
+backbone.encoder.layers.6.attention.k_proj,0.0,inf,0.7432545201668984,"2,2,2,2"
+backbone.encoder.layers.6.feed_forward.intermediate_dense,0.0,inf,0.7432545201668984,"2,2,2,2"
+backbone.encoder.layers.9.attention.v_proj,0.0,inf,0.7432545201668984,"2,2,2,2"
+head.5,0.0,inf,0.7432545201668984,"2,2,2,2"

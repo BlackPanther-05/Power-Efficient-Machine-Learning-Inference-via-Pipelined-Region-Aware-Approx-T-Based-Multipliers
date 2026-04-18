@@ -1,0 +1,2 @@
+acc,latency,throughput,layers,region_summary
+0.7434399629114509,0.038638380893373236,25.88100165893616,backbone.feature_projection.projection,"LL=L2, LH=L2, HL=L2, HH=L2"
