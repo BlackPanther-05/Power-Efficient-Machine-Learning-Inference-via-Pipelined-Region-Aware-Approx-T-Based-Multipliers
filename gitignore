@@ -1,0 +1,3 @@
+Applications/*
+!Applications/Results_tabulation/
+!Applications/Results_tabulation/**
