@@ -1,0 +1,4 @@
+acc,latency,throughput,layers,region_summary
+0.742512749188688,0.021879146753788326,45.70562148758622,backbone.feature_projection.projection,-
+0.7426054705609643,0.03125491336300645,31.99496950721379,backbone.encoder.layers.0.attention.out_proj,-
+0.7432545201668984,0.03128991508985946,31.95917908783598,backbone.encoder.layers.1.attention.q_proj,-

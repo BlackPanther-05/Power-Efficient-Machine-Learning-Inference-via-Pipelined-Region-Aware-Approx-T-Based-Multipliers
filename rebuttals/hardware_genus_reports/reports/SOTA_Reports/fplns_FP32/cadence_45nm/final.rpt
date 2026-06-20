@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/redhat315bd/physical_design_nipun/Physical_design
+QoS Summary for fplns_FP32
+================================================================================
+Metric                          fplns_FP32_syn_generic fplns_FP32_syn_map fplns_FP32_syn_opt
+================================================================================
+Slack (ps):                      -425            -246            -162
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                      -425            -246            -162
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                     -13,181          -7,598          -4,995
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                   -13,181          -7,598          -4,995
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                     31              31              31
+Cell Area:                      2,312           1,028           1,223
+Total Cell Area:                2,312           1,028           1,223
+Leaf Instances:                   866             605             727
+Total Instances:                  866             605             727
+Utilization (%):                 0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:30:10        00:30:05        00:31:42
+Real Runtime (h:m:s):        00:30:11        00:30:04        00:31:44
+CPU  Elapsed (h:m:s):        00:30:12        00:30:17        00:31:59
+Real Elapsed (h:m:s):        00:30:12        00:30:16        00:32:00
+Memory (MB):                  1658.42         1649.90         1647.74
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:31:59
+Total Memory (MB):     1655.74
+Executable Version:    21.10-p002_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

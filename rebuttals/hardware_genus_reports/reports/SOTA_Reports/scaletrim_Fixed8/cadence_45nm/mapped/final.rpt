@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/redhat315bd/physical_design_nipun/Physical_design
+QoS Summary for scaletrim_Fixed8
+================================================================================
+Metric                          scaletrim_Fixed8_syn_generic scaletrim_Fixed8_syn_map
+================================================================================
+Slack (ps):                      -763            -462
+  R2R (ps):                  no_value        no_value
+  I2R (ps):                  no_value        no_value
+  R2O (ps):                  no_value        no_value
+  I2O (ps):                      -763            -462
+  CG  (ps):                  no_value        no_value
+TNS (ps):                     -11,407          -6,955
+  R2R (ps):                  no_value        no_value
+  I2R (ps):                  no_value        no_value
+  R2O (ps):                  no_value        no_value
+  I2O (ps):                   -11,407          -6,955
+  CG  (ps):                  no_value        no_value
+Failing Paths:                     16              16
+Cell Area:                      3,174           1,515
+Total Cell Area:                3,174           1,515
+Leaf Instances:                 1,189           1,063
+Total Instances:                1,189           1,063
+Utilization (%):                 0.00            0.00
+Tot. Net Length (um):        no_value        no_value
+Avg. Net Length (um):        no_value        no_value
+Route Overflow H (%):        no_value        no_value
+Route Overflow V (%):        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value
+  Tot Cong:                  no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:30:18        00:30:11
+Real Runtime (h:m:s):        00:30:18        00:30:09
+CPU  Elapsed (h:m:s):        00:30:20        00:30:31
+Real Elapsed (h:m:s):        00:30:19        00:30:28
+Memory (MB):                  1642.95         1624.45
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:30:27
+Total Memory (MB):     1632.46
+Executable Version:    21.10-p002_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

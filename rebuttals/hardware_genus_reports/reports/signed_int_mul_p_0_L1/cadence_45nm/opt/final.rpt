@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/redhat315bd/physical_design_nipun/Physical_design
+QoS Summary for signed_int_mul_p_0_L1
+================================================================================
+Metric                          signed_int_mul_p_0_L1_syn_generic signed_int_mul_p_0_L1_syn_map signed_int_mul_p_0_L1_syn_opt
+================================================================================
+Slack (ps):                      -804            -632            -524
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                      -804            -632            -524
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                     -12,002          -9,648          -8,002
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                   -12,002          -9,648          -8,002
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                     16              16              16
+Cell Area:                      3,274           2,929           3,756
+Total Cell Area:                3,274           2,929           3,756
+Leaf Instances:                 1,223             975           1,145
+Total Instances:                1,223             975           1,145
+Utilization (%):                 0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:30:15        00:30:08        00:32:09
+Real Runtime (h:m:s):        00:30:15        00:30:08        00:32:10
+CPU  Elapsed (h:m:s):        00:30:17        00:30:25        00:32:34
+Real Elapsed (h:m:s):        00:30:16        00:30:24        00:32:34
+Memory (MB):                  1633.64         1612.40         1613.23
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:32:33
+Total Memory (MB):     1621.23
+Executable Version:    21.10-p002_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

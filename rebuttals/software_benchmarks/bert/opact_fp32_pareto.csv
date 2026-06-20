@@ -1,0 +1,2 @@
+acc,latency,throughput,layers,region_summary
+0.8509174311926605,0.01741132330002024,57.43388843964763,bert.encoder.layer.0.attention.self.query,-

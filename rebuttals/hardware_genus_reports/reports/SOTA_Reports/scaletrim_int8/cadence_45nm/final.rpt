@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/redhat315bd/physical_design_nipun/Physical_design
+QoS Summary for scaletrim_int8
+================================================================================
+Metric                          scaletrim_int8_syn_generic scaletrim_int8_syn_map scaletrim_int8_syn_opt
+================================================================================
+Slack (ps):                      -700            -388            -284
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                      -700            -388            -284
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                      -9,854          -5,519          -4,126
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                    -9,854          -5,519          -4,126
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                     16              16              16
+Cell Area:                      2,971           1,418           1,696
+Total Cell Area:                2,971           1,418           1,696
+Leaf Instances:                 1,113           1,028           1,161
+Total Instances:                1,113           1,028           1,161
+Utilization (%):                 0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:30:16        00:30:10        00:32:14
+Real Runtime (h:m:s):        00:30:17        00:30:08        00:32:16
+CPU  Elapsed (h:m:s):        00:30:18        00:30:28        00:32:42
+Real Elapsed (h:m:s):        00:30:18        00:30:26        00:32:42
+Memory (MB):                  1643.87         1626.89         1627.72
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:32:41
+Total Memory (MB):     1635.73
+Executable Version:    21.10-p002_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

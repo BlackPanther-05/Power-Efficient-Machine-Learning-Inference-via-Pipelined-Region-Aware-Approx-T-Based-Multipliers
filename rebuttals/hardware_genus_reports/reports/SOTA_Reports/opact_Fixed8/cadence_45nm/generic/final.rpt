@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/redhat315bd/physical_design_nipun/Physical_design
+QoS Summary for opact_Fixed8
+================================================================================
+Metric                          opact_Fixed8_syn_generic
+================================================================================
+Slack (ps):                      -299
+  R2R (ps):                  no_value
+  I2R (ps):                  no_value
+  R2O (ps):                  no_value
+  I2O (ps):                      -299
+  CG  (ps):                  no_value
+TNS (ps):                      -3,221
+  R2R (ps):                  no_value
+  I2R (ps):                  no_value
+  R2O (ps):                  no_value
+  I2O (ps):                    -3,221
+  CG  (ps):                  no_value
+Failing Paths:                     14
+Cell Area:                      2,784
+Total Cell Area:                2,784
+Leaf Instances:                 1,043
+Total Instances:                1,043
+Utilization (%):                 0.00
+Tot. Net Length (um):        no_value
+Avg. Net Length (um):        no_value
+Route Overflow H (%):        no_value
+Route Overflow V (%):        no_value
+MBCI(%) (bits/gate) :            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value
+  Tot Cong:                  no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:30:19
+Real Runtime (h:m:s):        00:30:18
+CPU  Elapsed (h:m:s):        00:30:21
+Real Elapsed (h:m:s):        00:30:19
+Memory (MB):                  1642.24
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:30:18
+Total Memory (MB):     1642.24
+Executable Version:    21.10-p002_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

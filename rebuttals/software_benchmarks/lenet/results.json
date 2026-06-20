@@ -1,0 +1,371 @@
+{
+  "baseline": {
+    "acc": 0.99275,
+    "latency": 0.00015885951404925435,
+    "throughput": 6294.870067964266
+  },
+  "rtl": [
+    {
+      "acc": 0.9925,
+      "latency": 0.0005266508255153895,
+      "throughput": 1898.7912893165656,
+      "hw_latency": 10.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp32",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99275,
+      "latency": 0.0007738837825600058,
+      "throughput": 1292.1836877004998,
+      "hw_latency": 10.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99275,
+      "latency": 0.0005864062997279688,
+      "throughput": 1705.3022801151615,
+      "hw_latency": 10.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "int8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.9925,
+      "latency": 0.0006626982985762879,
+      "throughput": 1508.9822957873234,
+      "hw_latency": 10.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "uint8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99325,
+      "latency": 0.0006830181715777144,
+      "throughput": 1464.089890449158,
+      "hw_latency": 10.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fixed8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    }
+  ],
+  "rtl_proposed": [
+    {
+      "acc": 0.99275,
+      "latency": 0.0005906006466830149,
+      "throughput": 1693.191508706079,
+      "hw_latency": 10.0,
+      "hw_throughput": 0.33,
+      "genes": "all",
+      "numeric_mode": "fp32",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99275,
+      "latency": 0.0008769853617995977,
+      "throughput": 1140.2698876842971,
+      "hw_latency": 10.0,
+      "hw_throughput": 0.33,
+      "genes": "all",
+      "numeric_mode": "fp8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.993,
+      "latency": 0.0006930867928313092,
+      "throughput": 1442.8207409853078,
+      "hw_latency": 10.0,
+      "hw_throughput": 0.33,
+      "genes": "all",
+      "numeric_mode": "int8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99275,
+      "latency": 0.0007563748374814168,
+      "throughput": 1322.0958054736568,
+      "hw_latency": 10.0,
+      "hw_throughput": 0.33,
+      "genes": "all",
+      "numeric_mode": "uint8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.993,
+      "latency": 0.0008134396150708199,
+      "throughput": 1229.3475526304896,
+      "hw_latency": 10.0,
+      "hw_throughput": 0.33,
+      "genes": "all",
+      "numeric_mode": "fixed8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    }
+  ],
+  "rtl_proposed_2": [
+    {
+      "acc": 0.99275,
+      "latency": 0.0005955678385216743,
+      "throughput": 1679.0698478316294,
+      "hw_latency": 30.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp32",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99275,
+      "latency": 0.0008962450777180493,
+      "throughput": 1115.7662394599963,
+      "hw_latency": 30.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.993,
+      "latency": 0.0007070204120827838,
+      "throughput": 1414.3863216821974,
+      "hw_latency": 30.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "int8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99275,
+      "latency": 0.0007686532009392976,
+      "throughput": 1300.9768238498136,
+      "hw_latency": 30.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "uint8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.993,
+      "latency": 0.0008076922987820581,
+      "throughput": 1238.09525175358,
+      "hw_latency": 30.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fixed8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    }
+  ],
+  "opact": [
+    {
+      "acc": 0.9925,
+      "latency": 0.0014692115695215762,
+      "throughput": 680.6371667258468,
+      "hw_latency": 12.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp32",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99325,
+      "latency": 0.0017613386957673356,
+      "throughput": 567.7499747226897,
+      "hw_latency": 12.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.993,
+      "latency": 0.0015980825340375304,
+      "throughput": 625.7499088445174,
+      "hw_latency": 12.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "int8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.993,
+      "latency": 0.0016245761043392122,
+      "throughput": 615.5451858050964,
+      "hw_latency": 12.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "uint8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99275,
+      "latency": 0.00205630602769088,
+      "throughput": 486.3089377425722,
+      "hw_latency": 12.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fixed8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    }
+  ],
+  "scaletrim": [
+    {
+      "acc": 0.979,
+      "latency": 0.0003301516622304916,
+      "throughput": 3028.9109957649143,
+      "hw_latency": 15.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp32",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.982,
+      "latency": 0.0006234720972133801,
+      "throughput": 1603.9210166253122,
+      "hw_latency": 15.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.977,
+      "latency": 0.0004388779680011794,
+      "throughput": 2278.5377095924596,
+      "hw_latency": 15.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "int8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.9805,
+      "latency": 0.0004998820469481871,
+      "throughput": 2000.4719235368943,
+      "hw_latency": 15.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "uint8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.98075,
+      "latency": 0.0005221301395213232,
+      "throughput": 1915.2313270342463,
+      "hw_latency": 15.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fixed8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    }
+  ],
+  "acbam": [
+    {
+      "acc": 0.993,
+      "latency": 0.0007855598405003548,
+      "throughput": 1272.977497631574,
+      "hw_latency": 14.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp32",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.9925,
+      "latency": 0.0010885977699654178,
+      "throughput": 918.6129418874041,
+      "hw_latency": 14.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.993,
+      "latency": 0.0008760065127862617,
+      "throughput": 1141.544024392421,
+      "hw_latency": 14.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "int8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99225,
+      "latency": 0.0009384467732161284,
+      "throughput": 1065.5905359159838,
+      "hw_latency": 14.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "uint8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.9925,
+      "latency": 0.0010359281843993814,
+      "throughput": 965.3178811616057,
+      "hw_latency": 14.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fixed8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    }
+  ],
+  "fplns": [
+    {
+      "acc": 0.99225,
+      "latency": 0.0003178083095699549,
+      "throughput": 3146.5508291874394,
+      "hw_latency": 11.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp32",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.9925,
+      "latency": 0.0006095864955568686,
+      "throughput": 1640.4562884656448,
+      "hw_latency": 11.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fp8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.992,
+      "latency": 0.00042215764219872653,
+      "throughput": 2368.7833644126235,
+      "hw_latency": 11.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "int8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.99175,
+      "latency": 0.0004920183637877926,
+      "throughput": 2032.4444646771349,
+      "hw_latency": 11.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "uint8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    },
+    {
+      "acc": 0.992,
+      "latency": 0.0005270663514966146,
+      "throughput": 1897.2943295668215,
+      "hw_latency": 11.0,
+      "hw_throughput": 1.0,
+      "genes": "all",
+      "numeric_mode": "fixed8",
+      "layers": "conv1,conv2,conv3,fc1,fc2,fc3"
+    }
+  ]
+}

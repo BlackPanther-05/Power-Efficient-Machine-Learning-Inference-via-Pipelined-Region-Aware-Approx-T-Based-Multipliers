@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/redhat315bd/physical_design_nipun/Physical_design
+QoS Summary for opact_UINT8
+================================================================================
+Metric                          opact_UINT8_syn_generic opact_UINT8_syn_map opact_UINT8_syn_opt
+================================================================================
+Slack (ps):                        20               4               0
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                        20               4               0
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                           0               0               0
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                         0               0               0
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                      0               0               0
+Cell Area:                      2,402             764             748
+Total Cell Area:                2,402             764             748
+Leaf Instances:                   900             478             462
+Total Instances:                  900             478             462
+Utilization (%):                 0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:30:13        00:30:04        00:30:01
+Real Runtime (h:m:s):        00:30:13        00:30:03        00:30:01
+CPU  Elapsed (h:m:s):        00:30:15        00:30:19        00:30:20
+Real Elapsed (h:m:s):        00:30:14        00:30:17        00:30:18
+Memory (MB):                  1621.93         1603.67         1604.50
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:30:17
+Total Memory (MB):     1612.50
+Executable Version:    21.10-p002_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+
