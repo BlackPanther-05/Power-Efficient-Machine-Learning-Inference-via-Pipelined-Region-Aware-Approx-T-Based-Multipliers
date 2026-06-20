@@ -1,6 +1,6 @@
-# ICCAD Rebuttal Addendum: Extensive Benchmarking and Genus Reports
+# Extended Benchmarking and Genus Reports
 
-This directory contains the expanded supplementary data and code generated explicitly to address reviewer comments for our ICCAD submission. To facilitate rapid verification of our claims, we have organized the direct results and source codes below.
+This directory contains expanded supplementary data and code generated to provide comprehensive benchmarking and hardware evaluation metrics. To facilitate rapid verification, we have organized the direct results and source codes below.
 
 ## ⚡ Direct Access: Energy CSV Files (energy_summary.csv)
 We have evaluated throughput-normalized energy (Energy-per-Multiply and Energy-per-Inference) for **P-ALAM** against exact baselines and SOTA designs. You can view the raw aggregated data directly via the CSV links below:

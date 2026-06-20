@@ -1,7 +1,7 @@
 # Approx-T Parallel Pipeline
 
 > [!IMPORTANT]
-> **ICCAD Reviewers:** Please see the [rebuttals/README.md](./rebuttals/README.md) for direct access to our newly compiled extended benchmarking metrics.
+> Please see the [rebuttals/README.md](./rebuttals/README.md) for direct access to our newly compiled extended benchmarking metrics.
 > You can directly access the **[Average Energy Summary CSV](./rebuttals/software_benchmarks/energy_summary.csv)**, **[Detailed Energy Comparison CSV](./rebuttals/software_benchmarks/energy_comparison.csv)**, as well as the **[P-ALAM RTL Source Code](./rebuttals/hardware_RTL/RTL_proposed_2/)** and **[ALAM RTL Source Code](./rebuttals/hardware_RTL/RTL_proposed/)**.
 
 Approx-T Parallel Pipeline is a research codebase for configurable approximate multipliers and their evaluation across RTL simulation, mantissa-region analysis, synthesis reporting, and application-level benchmarking.
