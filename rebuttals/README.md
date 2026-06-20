@@ -1,20 +1,22 @@
 # ICCAD Rebuttal Addendum: Extensive Benchmarking and Genus Reports
 
-This directory contains the expanded supplementary data generated explicitly to address reviewer comments for our ICCAD submission. We provide end-to-end hardware synthesis metrics as well as comprehensive neural-network application trace results comparing P-ALAM and ALAM architectures against state-of-the-art (SOTA) combinational approximate multipliers.
+This directory contains the expanded supplementary data and code generated explicitly to address reviewer comments for our ICCAD submission. To facilitate rapid verification of our claims, we have organized the direct results and source codes below.
 
-## Directory Structure
+## ⚡ Direct Access: Energy & Throughput Metrics (CSVs)
+We have evaluated throughput-normalized energy (Energy-per-Multiply and Energy-per-Inference) for P-ALAM against exact baselines and SOTA designs. You can view the raw aggregated data directly via the CSV links below:
+- **[Average Energy Summary (energy_summary.csv)](./software_benchmarks/energy_summary.csv)**
+- **[Detailed Energy Comparison (energy_comparison.csv)](./software_benchmarks/energy_comparison.csv)**
+- **[Hardware Genus Synthesis Metrics (multiplier_report_tabulation.csv)](./hardware_genus_reports/multiplier_report_tabulation.csv)**
 
-### `software_benchmarks/`
-Contains the complete Pareto optimality analyses and sensitivity sweeps extracted from our NSGA-II search (`multiplier_benchmark.py`).
-- **Energy Analysis:** `energy_summary.csv` and `energy_comparison.csv` aggregate the throughput-normalized energy results. They detail the energy-per-multiply (in pJ) and the total energy-per-inference (in µJ) across all tested models and precision levels.
-- **Model Traces:** Subdirectories for `bert`, `hubert`, and `lenet` contain `*_pareto.csv` files defining the exact Pareto boundaries. As discussed in our rebuttal, P-ALAM robustly occupies the Pareto front while maintaining an accuracy drop of <1% with unparalleled steady-state throughput.
+*Additional raw model traces (Pareto boundaries) for BERT, HuBERT, and LeNet-5 can be found in the [`software_benchmarks/`](./software_benchmarks/) directory.*
 
-### `hardware_genus_reports/`
-Contains the Cadence Genus 45nm synthesis data proving the hardware dominance of P-ALAM.
-- **SOTA Reports:** Includes complete timing, area, and power metrics for baseline implementations as well as SOTA multipliers (ACBAM, OPACT, FPLNS, and scaleTRIM).
-- **Summary Metrics:** Validation of P-ALAM’s strict timing closure at 1.0 GHz (1000ps path delay) across all datatypes (FP32, FP8, INT8, UINT8, Fixed8) along with precise component-level power breakdowns.
+## 💻 Direct Access: RTL Codes & Testbenches
+The underlying Verilog modules containing our 3-stage pipelined architecture and operand isolation gating (as detailed in the rebuttal) are provided here:
+- **[P-ALAM (RTL_proposed_2)](./hardware_RTL/RTL_proposed_2/)**: Contains the fully pipelined, region-aware approximate multiplier modules.
+- **[ALAM (RTL_proposed)](./hardware_RTL/RTL_proposed/)**: The foundational, unpipelined variant.
+- **[Simulation Testbenches](./testbenches/)**: Exhaustive verification environments corresponding to the proposed hardware.
 
 ## Summary of Empirical Improvements
-- **Throughput & Timing:** P-ALAM reliably scales to **1.0 GHz**, overcoming the severe combinational critical path bottlenecks of ALAM (~0.62–0.71 GHz) and competing SOTA designs.
-- **Area & Power Efficiency:** For highly quantized logic (e.g., INT8, Fixed8), P-ALAM achieves an area reduction of over **50%** versus ALAM and curtails energy-per-multiply from 32.89 pJ (ALAM) to **1.08 pJ** (P-ALAM).
-- **Integer Stability:** While SOTA architectures like scaleTRIM exhibit catastrophic numerical divergence in integer math (with mean errors ranging up to 131%), P-ALAM bounds this instability and preserves application accuracy inherently via region-aware pipelining.
+- **Throughput & Timing:** The pipelined P-ALAM reliably scales to **1.0 GHz**, entirely overcoming the combinational critical path bottlenecks that plague ALAM (~0.62–0.71 GHz) and competing SOTA structures.
+- **Area & Power Efficiency:** For highly quantized logic (e.g., INT8, Fixed8), P-ALAM achieves an area reduction of over **50%** versus ALAM and curtails energy-per-multiply from 32.89 pJ (ALAM) down to just **1.08 pJ**.
+- **Integer Stability:** While un-gated SOTA architectures (e.g., scaleTRIM) exhibit catastrophic numerical divergence in integer math (with mean errors ranging up to 131%), P-ALAM bounds this instability and preserves application accuracy inherently via its region-aware logic.
