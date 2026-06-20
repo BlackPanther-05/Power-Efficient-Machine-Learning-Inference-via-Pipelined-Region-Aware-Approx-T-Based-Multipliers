@@ -10,11 +10,12 @@ We have evaluated throughput-normalized energy (Energy-per-Multiply and Energy-p
 
 *Additional raw model traces (Pareto boundaries) for BERT, HuBERT, and LeNet-5 can be found in the [`software_benchmarks/`](./software_benchmarks/) directory.*
 
-## 💻 Direct Access: P-ALAM and ALAM RTL Codes & Testbenches
+## 💻 Direct Access: RTL Codes & Testbenches
 The underlying Verilog modules containing our 3-stage pipelined architecture and operand isolation gating (as detailed in the rebuttal) are provided here:
 - **[P-ALAM Source Code (RTL_proposed_2)](./hardware_RTL/RTL_proposed_2/)**: Contains the fully pipelined, region-aware approximate multiplier modules.
 - **[ALAM Source Code (RTL_proposed)](./hardware_RTL/RTL_proposed/)**: The foundational, unpipelined variant.
-- **[Simulation Testbenches](./testbenches/)**: Exhaustive verification environments corresponding to the proposed hardware.
+- **[SOTA Implementations](./hardware_RTL/SOTA/)**: Verilog source code for ACBAM, OPACT, FPLNS, and scaleTRIM used in our evaluation.
+- **[Simulation Testbenches](./testbenches/)**: Exhaustive verification environments corresponding to the proposed hardware and SOTA designs.
 
 ## Summary of Empirical Improvements
 - **Throughput & Timing:** The pipelined P-ALAM reliably scales to **1.0 GHz**, entirely overcoming the combinational critical path bottlenecks that plague ALAM (~0.62–0.71 GHz) and competing SOTA structures.
